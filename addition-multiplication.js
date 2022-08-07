@@ -2,7 +2,7 @@
 
 function addNumbers(numbers){
     let sum = 0;
-    for(let i= 1; i < numbers; i++){
+    for(let i= 1; i <= numbers; i++){
         sum = sum + i;
         console.log(i, sum);
     }
@@ -11,7 +11,7 @@ function addNumbers(numbers){
 
 function multiplicationOfNumbers(number){
     let result = 1;
-    for(let i = 1; i < number; i++){
+    for(let i = 1; i <= number; i++){
         result = result * i;
         console.log(i, result);
     }
