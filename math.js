@@ -29,7 +29,7 @@ const result2 = Math.ceil(2.00001);
 console.log(result2);
 
 // floor
-const result3 = Math.floor(2.00001);
+const result3 = Math.floor(13.67);
 const result4 = Math.floor(459.256);
 console.log(result3);
 console.log(result4);
@@ -46,6 +46,6 @@ const random1 = Math.round(Math.random() * 100);
 console.log(random1);
 
 for(let i = 0; i < 20; i++){
-    const random1 = Math.round(Math.random() * 6);
+    const random1 = Math.round(Math.random() * 10);
     console.log(random1);
 }
