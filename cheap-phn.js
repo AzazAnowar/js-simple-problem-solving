@@ -36,8 +36,8 @@ function checkColor(phones, phnColor){
 }
 
 
-// const mySelection = cheapestPhone(phones);
-// console.log(mySelection);
+const mySelection = cheapestPhone(phones);
+console.log(mySelection);
 
 const myColor = checkColor(phones, 'silver');
 console.log(myColor);
